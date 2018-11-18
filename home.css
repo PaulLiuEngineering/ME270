@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    background: linear-gradient( to left top, blue, purple);
+    background: linear-gradient( to left top, SandyBrown, DarkSlateGray);
 }
 /* body:before {
     content: '';
