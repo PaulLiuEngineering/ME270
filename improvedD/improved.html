@@ -15,14 +15,21 @@
     <h1>Improved Designs</h1>
     <div class='navigation'>
         <button onclick="location.href='../index.html'">Home</button>
-        <button>Product Analysis</button>
-        <button>Parts</button>
+        <button onclick="location.href='..productA/productA.html'">Product Analysis</button>
         <div class='drop'>
-            <button onclick="location.href='./improved.html'" id = 'drop'>Improved Designs</button>
+            <button onclick="location.href='../parts/parts.html'" id='drop'>Parts</button>
             <div class='drop-content'>
-                <a>Zipper</a>
-                <a>Quick Release</a>
-                <a>Rubber</a>
+                <a href='../parts/rubber.html'>Rubber</a>
+                <a href='../parts/plastic.html'>Plastic</a>
+                <a href='../parts/metal.html'>Metal</a>
+            </div>
+        </div>
+        <div class='drop'>
+            <button onclick="location.href='./improved.html'" id='drop'>Improved Designs</button>
+            <div class='drop-content'>
+                <a href='./zipper.html'>Zipper</a>
+                <a href='./quick.html'>Quick Release</a>
+                <a href='./rubber.html'>Rubber</a>
             </div>
         </div>
     </div>
@@ -39,22 +46,28 @@
         </ol>
         <div class='carousel-inner'>
             <div class="item active">
-                <img src='z1.png' alt='CERV2' class='center-block'>
-                <div class="carousel-caption">
-                    Zipper
-                </div>
+                <a href='./zipper.html'>
+                    <img src='z1.png' alt='CERV2' class='center-block'>
+                    <div class="carousel-caption">
+                        Zipper
+                    </div>
+                </a>
             </div>
-            <div class="item">
-                <img src='q1.png' alt='CERV2' class='center-block'>
-                <div class="carousel-caption">
-                    Quick Release
-                </div>
+            <div class="item" href=''>
+                <a href='./quick.html'>
+                    <img src='q1.png' alt='CERV2' class='center-block'>
+                    <div class="carousel-caption">
+                        Quick Release
+                    </div>
+                </a>
             </div>
-            <div class="item">
-                <img src='r1.png' alt='CERV2' class='center-block'>
-                <div class="carousel-caption">
-                    Rubber
-                </div>
+            <div class="item" href=''>
+                <a href='./rubber.html'>
+                    <img src='r1.png' alt='CERV2' class='center-block'>
+                    <div class="carousel-caption">
+                        Rubber
+                    </div>
+                </a>
             </div>
         </div>
 
